@@ -1,0 +1,22 @@
+.hover-effect:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .card {
+      max-width: 100%; /* Full width on small screens */
+    }
+  }
+
+  /* --jacket */
+  .jct_bg {
+    background: radial-gradient(circle, #5b0c4fe6, rgba(157, 82, 227, 0.8)); /* Radial gradient */
+    height: 150px;
+    display: flex;
+    align-items: center; /* Vertically centers content */
+    justify-content: center; /* Horizontally centers content */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Shadow effect */
+  }
+  
