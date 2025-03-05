@@ -9,14 +9,14 @@ const Navbar = () => {
       <div className="container-fluid d-flex justify-content-between align-items-center">
         
         {/* Logo (Left Side) */}
-        <a className="navbar-brand text-danger text-decoration-none fw-bold fs-5 d-flex align-items-center" href="">
+        <Link className="navbar-brand text-danger text-decoration-none fw-bold fs-5 d-flex align-items-center" to="/">
           <img
             src="https://w7.pngwing.com/pngs/583/178/png-transparent-decal-white-tailed-deer-logo-elk-head-animals-leaf-computer-wallpaper-thumbnail.png"
             style={{ height: "45px", width: "60px", marginRight: "10px" }}
             alt="logo"
           />
           Tiwore Handrix
-        </a>
+        </Link>
 
         {/* Navbar Toggler for Mobile */}
         <button
