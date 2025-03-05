@@ -1,8 +1,8 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
-import Navbar from './Components/Navbar/Navbar';
+//import Navbar from './Components/Navbar/Navbar';
 import Login from './Pages/Login';
-import Advertise from './Components/advertise/Advertise';
+//import Advertise from './Components/advertise/Advertise';
 import Home from './Components/home/Home';
 import Offers from './Pages/Offers';
 import Newarrival from './Pages/Newarrival';
