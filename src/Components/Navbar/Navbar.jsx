@@ -121,6 +121,7 @@ const Navbar = () => {
           {/* Cart & Login (Inside Toggler) */}
           <div className="d-flex gap-3 align-items-center ms-lg-auto flex-column flex-lg-row text-center">
             <GiShoppingCart size={28} />
+            
             <button type="button" className="btn btn-primary">
               <Link to="/login" className="text-decoration-none text-light">Login</Link>
             </button>

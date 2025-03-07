@@ -12,6 +12,7 @@ import Tshirt from './Components/category/Tshirt';
 import Shirt from './Components/category/Shirt';
 import Jeans from './Components/category/Jeans';
 import Signup from './Pages/Signup';
+import ContactUs from './Pages/ContactUs';
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
         <Route path="/jeans" element={<Jeans/>} />
         <Route path="/login" element={<Login/>} />
         <Route path="/signup" element={<Signup/>} />
+        <Route path="/contactus" element={<ContactUs/>} />
       </Routes>
     </BrowserRouter>
   );
