@@ -127,7 +127,6 @@
 import React from 'react';
 import Navbar from '../Navbar/Navbar';
 import './jacket.css';
-import { FaFacebook, FaInstagram, FaTwitter, FaLinkedin } from 'react-icons/fa';
 import Footer2 from '../Footer2/Footer2';
 
 
