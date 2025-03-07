@@ -11,6 +11,7 @@ import Jacket from './Components/category/Jacket';
 import Tshirt from './Components/category/Tshirt';
 import Shirt from './Components/category/Shirt';
 import Jeans from './Components/category/Jeans';
+import Signup from './Pages/Signup';
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
         <Route path="/shirt" element={<Shirt/>} />
         <Route path="/jeans" element={<Jeans/>} />
         <Route path="/login" element={<Login/>} />
+        <Route path="/signup" element={<Signup/>} />
       </Routes>
     </BrowserRouter>
   );

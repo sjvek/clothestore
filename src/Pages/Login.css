@@ -1,0 +1,44 @@
+/* Background matches Advertise section */
+.login-container {
+    height: 100vh;
+    background-color:  rgba(233, 190, 190, 0.589);
+}
+
+/* Centered login box */
+.login-box {
+    width: 350px;
+    background: #ffffff71; /* Semi-transparent white */
+    backdrop-filter: blur(10px); /* Glassmorphism effect */
+    border-radius: 10px;
+}
+
+/* Style the inputs */
+.form-control {
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    border: none;
+}
+
+.form-control::placeholder {
+    color: rgba(10, 1, 1, 0.7);
+}
+
+.form-control:focus {
+    background: rgba(255, 255, 255, 0.3);
+    outline: none;
+    box-shadow: none;
+}
+
+/* Button styles */
+.btn-light {
+    font-weight: bold;
+    background: white;
+    color: #b262ca;
+}
+
+/* Responsive adjustments */
+@media (max-width: 480px) {
+    .login-box {
+        width: 90%;
+    }
+}

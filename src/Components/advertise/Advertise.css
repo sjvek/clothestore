@@ -1,9 +1,11 @@
-.bg{
-    /* background-color: #632075cd; */
-  
-        background: linear-gradient(to right, #b262ca, #fad0c4);
+.bg {
+    background: linear-gradient(to right, #b262ca, #fad0c4);
+    padding: 40px;
+}
+
+/* Reduce padding for small screens */
+@media (max-width: 768px) {
+    .bg {
         padding: 20px;
-        
-      
-      
+    }
 }

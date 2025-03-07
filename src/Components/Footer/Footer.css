@@ -1,0 +1,35 @@
+.footer {
+    background: #1a1a1afb; /* Dark modern background */
+    color: white;
+    padding-top: 40px;
+}
+
+/* Footer links */
+.footer-link {
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+    color: #f1c40f; /* Gold hover effect */
+}
+
+/* Social Media Icons */
+.social-icon {
+    font-size: 1.5rem;
+    color: white;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-icon:hover {
+    color: #f1c40f; /* Gold color on hover */
+    transform: scale(1.1);
+}
+
+/* Responsive Text Alignment */
+@media (max-width: 768px) {
+    .footer {
+        text-align: center;
+    }
+}

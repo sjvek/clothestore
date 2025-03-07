@@ -1,0 +1,119 @@
+/* Banner Styling */
+.jct_banner {
+    background-image: url('https://imageio.forbes.com/specials-images/imageserve/661937fa1323eaa01c894c1d/0x0.jpg?format=jpg&height=600&width=1200&fit=bounds'); /* Replace with your banner image */
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  .jct_bg {
+    background: radial-gradient(circle, #5b0c4fe6, rgba(157, 82, 227, 0.8)); /* Radial gradient */
+    height: 150px;
+    display: flex;
+    align-items: center; /* Vertically centers content */
+    justify-content: center; /* Horizontally centers content */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Shadow effect */
+  }
+
+  .jct_overlay {
+    position: absolute;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .jct_banner h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  .jct_banner .lead {
+    font-size: 1.3rem;
+  }
+  
+  .jct_banner .btn {
+    font-size: 1.2rem;
+    padding: 12px 30px;
+    border-radius: 25px;
+  }
+  
+  /* Cards Styling */
+  .card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-img-top {
+    height: 250px;
+    object-fit: cover;
+  }
+  
+  /* Card Body Text */
+  .card-body .card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .card-body .card-text {
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .jct_banner h2 {
+      font-size: 2rem;
+    }
+  
+    .jct_banner .lead {
+      font-size: 1.1rem;
+    }
+  }
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+  }
+  
+  footer .text-light {
+    color: #f7c400 !important; /* Change text color */
+  }
+  
+  footer .social-icons a {
+    text-decoration: none;
+    color: #f7c400;
+    transition: color 0.3s ease;
+  }
+  
+  footer .social-icons a:hover {
+    color: #fff;
+    transform: scale(1.1); /* Slight scale on hover */
+  }
+  
+  footer .text-center {
+    font-size: 0.9rem;
+  }
+  
+  footer .container {
+    max-width: 1200px;
+  }
+  
+  footer .container p {
+    font-size: 1rem;
+  }
+  
+  footer a {
+    color: inherit; /* Inherit color for text */
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }

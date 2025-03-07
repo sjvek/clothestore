@@ -69,14 +69,14 @@
 
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.min"; // Ensure Bootstrap JS is imported
 import { GiShoppingCart } from "react-icons/gi";
 import { Link } from "react-router-dom";
 
-const Navbar = () => { 
+const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg border px-3">
+    <nav className="navbar navbar-expand-lg  px-3">
       <div className="container-fluid">
-        
         {/* Logo (Left Side) */}
         <Link className="navbar-brand text-danger text-decoration-none fw-bold fs-5 d-flex align-items-center" to="/">
           <img
@@ -101,8 +101,9 @@ const Navbar = () => {
           <span className="navbar-toggler-icon"></span>
         </button>
 
-        <div className="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
-          <ul className="navbar-nav me-auto text-center gap-lg-3">
+        {/* Navbar Items + Cart & Login Inside the Toggle */}
+        <div className="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul className="navbar-nav mx-auto text-center gap-lg-3">
             <li className="nav-item">
               <Link to="/" className="nav-link active fw-semibold">Home</Link>
             </li>
@@ -117,26 +118,19 @@ const Navbar = () => {
             </li>
           </ul>
 
-          {/* Login & Cart (Right Side) */}
-          <div className="d-lg-flex gap-3 align-items-center d-none d-lg-block">
+          {/* Cart & Login (Inside Toggler) */}
+          <div className="d-flex gap-3 align-items-center ms-lg-auto flex-column flex-lg-row text-center">
             <GiShoppingCart size={28} />
             <button type="button" className="btn btn-primary">
               <Link to="/login" className="text-decoration-none text-light">Login</Link>
             </button>
           </div>
         </div>
-
-        {/* Ensure Cart & Login are visible when collapsed */}
-        <div className="d-lg-none mt-2 d-flex justify-content-center gap-3">
-          <GiShoppingCart size={28} />
-          <button type="button" className="btn btn-primary">
-            <Link to="/login" className="text-decoration-none text-light">Login</Link>
-          </button>
-        </div>
-        
       </div>
     </nav>
   );
 };
 
 export default Navbar;
+
+

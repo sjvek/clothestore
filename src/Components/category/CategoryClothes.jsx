@@ -21,7 +21,7 @@ const imgStyle = {
 
 const CategoryClothes = () => { 
   return (
-    <div className="container">
+    <div className="container ">
       <div className="m-5">
         <h1 className="text-center">Shop by Categories</h1>
       </div>

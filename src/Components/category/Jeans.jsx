@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from '../Navbar/Navbar';
 import './category.css';
+import Footer2 from '../Footer2/Footer2';
 
 const Jeans = () => {
   return (
@@ -118,6 +119,7 @@ const Jeans = () => {
         </div>
       </div>
     </div>
+    <Footer2/>
   </>
   )
 }
