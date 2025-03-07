@@ -2,7 +2,6 @@ import React from 'react';
 import { FaShoppingCart, FaTag } from 'react-icons/fa';
 import Navbar from '../Components/Navbar/Navbar';
 import  './offers.css';
-import { FaFacebook, FaInstagram, FaTwitter, FaLinkedin } from 'react-icons/fa';
 import Footer2 from '../Components/Footer2/Footer2';
 
 const Offers = () => {
